@@ -8,6 +8,7 @@ CREATE TABLE  Minijuego(
 	nombre varchar(60) NOT NULL,
     ruta varchar (3000) NOT NULL,
     portada varchar (3000) NOT NULL
+	fechaHora datetime  NOT NULL default NOW(),
 );
 -- Tabla Partida
 CREATE TABLE  Partida(
