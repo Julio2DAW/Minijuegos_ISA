@@ -98,7 +98,7 @@ class Metodos_minijuegos{
         $sql = 'UPDATE minijuego SET nombre = "'.vacios($_POST['nombre']).'", ruta = "'.vacios($_POST['ruta']).'", portada = "'.$_POST['portada'].'", fechaHora = "'.vacios($_POST['fecha']).'" WHERE idMinijuego = '.$_POST['id'];
 
         $resultado = $this->conexion->query($sql);
-        echo $sql;
+        
         if ($resultado) {
             echo '<br />';
             echo 'Se ha modificado el registro';
