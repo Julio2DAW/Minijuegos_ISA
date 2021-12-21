@@ -1,0 +1,48 @@
+/* body */
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+}
+
+/* nav */
+
+nav{
+    display: grid;
+}
+
+nav ul{
+    list-style: none;
+}
+
+/* main */
+
+main{
+    width: 100%;
+}
+
+/* aside */
+aside {
+    width: 19.1%;
+}
+
+/* Central */
+
+
+
+/* footer*/
+
+footer{
+    width: 100%;
+    background-color: rgba(0, 44, 157, 0.64);
+    border-radius: 5px;
+    height: 50px;
+}
