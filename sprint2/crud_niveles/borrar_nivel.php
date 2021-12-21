@@ -21,11 +21,11 @@
     </form>
 
     <?php
-    require 'metodos_niveles.php';
-    $conexion = new Metodos_niveles();
-    if (isset($_POST['enviar'])) {
-        $conexion->borrar();
-    }
+        require 'metodos_niveles.php';
+        $conexion = new Metodos_niveles();
+        if (isset($_POST['enviar'])) {
+            $conexion->borrar();
+        }
     ?>
 
 </body>

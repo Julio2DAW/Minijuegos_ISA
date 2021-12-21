@@ -69,7 +69,17 @@ class Metodos_niveles{
     }
 
     function actualizar(){
+        $sql = 'UPDATE nivel SET puntuacion = "'.$_POST['puntuacion'].'", vida = "'.$_POST['vida'].'", velocidad = "'.$_POST['velocidad'].'", bolas = "'.$_POST['bolas'].'" WHERE idnivel = '.$_POST['id'];
 
+        $resultado = $this->conexion->query($sql);
+        
+        if ($resultado) {
+            echo '<br />';
+            echo 'Se ha modificado el nivel';
+        } else{
+            echo '<br />';
+            echo 'No se pudo modificar el nivel';
+        }
     }
 
 }
