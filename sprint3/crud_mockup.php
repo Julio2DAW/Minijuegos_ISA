@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>MINIJUEGOS</h1>
+        <h1>GESTIÓN DE MINIJUEGOS</h1>
         <nav>
             <ul>
                 <li>MINIJUEGOS</li>
@@ -22,10 +22,21 @@
     </header>
     <main>
         <aside>
-            
+            <p>Operaciones</p>
         </aside>
         <div id="central">
-    <h3></h3>
+    <h3>Nombre de la tabla</h3>
+    <h3>Nombre de la operacion</h3>
+    <form action="" method="POST">
+        <label for="">bla dffv</label>
+        <input type="text">
+        <label for="">bkgbgrlkjm</label>
+        <input type="text">
+        <label for="">ñkjnkñjnm</label>
+        <input type="text">
+        <input type="submit" value="Enviar">
+
+    </form>
         </div>
     </main>
     <footer>

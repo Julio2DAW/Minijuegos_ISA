@@ -1,3 +1,9 @@
+/* Fuentes */
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+}
+
 /* body */
 body{
     margin: 0 auto;
@@ -11,27 +17,62 @@ header{
     color: white;
     background-color: black;
     border-radius: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 15px 0px;
+    letter-spacing: 2px;
 }
 
 /* nav */
 
 nav{
-    display: grid;
+    width: auto;
 }
 
 nav ul{
     list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 4px 0px;
+    margin: 0 auto;
+}
+
+nav ul li:nth-child(-n + 2){
+    border-right: 1px solid white;
+}
+
+nav li{
+    padding: 2%;
 }
 
 /* main */
 
 main{
-    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 74.5%;
+}
+
+#central h3:first-child{
+    padding: 2% 0px;
+    padding-left: 10%;
+}
+
+#central h3:nth-child(2){
+    text-align: center;
 }
 
 /* aside */
 aside {
-    width: 19.1%;
+    background-color: #efefef;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: inset -1px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
 /* Central */
@@ -45,4 +86,6 @@ footer{
     background-color: rgba(0, 44, 157, 0.64);
     border-radius: 5px;
     height: 50px;
+    position: absolute;
+    bottom: 0;
 }
