@@ -14,19 +14,19 @@
         <h1>GESTIÓN DE MINIJUEGOS</h1>
         <nav>
             <ul>
-                <li>MINIJUEGOS</li>
-                <li>NIVELES</li>
-                <li>PARTIDAS</li>
+                <li><a href="">MINIJUEGOS</a></li>
+                <li><a href="">NIVELES</a></li>
+                <li><a href="">PARTIDAS</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <aside>
             <p>Operaciones</p>
-            <input class="botones" type="submit" value="Mostrar">
-            <input class="botones" type="submit" value="Modificar">
-            <input class="botones" type="submit" value="Insertar">
-            <input class="botones" type="submit" value="Borrar">
+            <div class="botones"><a href="">Mostrar</a></div>
+            <div class="botones"><a href="">Modificar</a></div>
+            <div class="botones"><a href="">Insertar</a></div>
+            <div class="botones"><a href="">Borrar</a></div>
         </aside>
         <div id="central">
             <h3>Nombre de la tabla</h3>
