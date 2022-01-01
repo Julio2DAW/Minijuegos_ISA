@@ -34,6 +34,7 @@ nav{
     width: auto;
 }
 
+
 nav ul{
     list-style: none;
     display: grid;
@@ -69,16 +70,60 @@ main{
 
 /* aside */
 aside {
+    display: grid;
     background-color: #efefef;
     text-align: center;
     border-radius: 15px;
     box-shadow: inset -1px 0px 5px rgba(0, 0, 0, 0.25);
+    grid-template-rows: 20% 17% 17% 17% 17%;
+    grid-template-columns: 50%;
+    align-items: center;
+    justify-content: center;
 }
+
+aside p {
+    height: fit-content;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.botones{
+    background-color: #D3E7FF;
+    border-radius: 22px;
+    border:  0px;
+    padding: 1%;
+    height: 20px;
+}
+
 
 /* Central */
 
 
 
+#boton {
+    width: auto;
+    height: 2em;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid gray;
+}
+
+form{
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+    grid-template-rows: 40px 25px 70px 25px 70px 25px 70px;
+}
+
+.campos {
+    border: 1px solid rgba(70, 197, 50, 0.85);
+}
+
+form input {
+    border-radius: 10px;
+}
 /* footer*/
 
 footer{

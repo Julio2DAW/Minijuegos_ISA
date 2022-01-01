@@ -23,20 +23,24 @@
     <main>
         <aside>
             <p>Operaciones</p>
+            <input class="botones" type="submit" value="Mostrar">
+            <input class="botones" type="submit" value="Modificar">
+            <input class="botones" type="submit" value="Insertar">
+            <input class="botones" type="submit" value="Borrar">
         </aside>
         <div id="central">
-    <h3>Nombre de la tabla</h3>
-    <h3>Nombre de la operacion</h3>
-    <form action="" method="POST">
-        <label for="">bla dffv</label>
-        <input type="text">
-        <label for="">bkgbgrlkjm</label>
-        <input type="text">
-        <label for="">ñkjnkñjnm</label>
-        <input type="text">
-        <input type="submit" value="Enviar">
+            <h3>Nombre de la tabla</h3>
+            <h3>Nombre de la operacion</h3>
+            <form action="" method="POST">
+                <label for="">Id de la tabla</label>
+                <input class="campos" type="text">
+                <label for="">Campo 2</label>
+                <input class="campos" type="text">
+                <label for="">Campo 3</label>
+                <input class="campos" type="text">
+                <input id="boton" type="submit" value="Enviar">
 
-    </form>
+            </form>
         </div>
     </main>
     <footer>
